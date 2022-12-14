@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .sect44 {
+        background-color: black;
+        height: 100%;
+        width: 100%;
+        display: flex;
+      }
+
+      li a {
+        text-align: center;
+      }
+
+      #pandaswap {
+        border-radius: 5px;
+        height: 40px;
+        line-height: normal
+      }
+
+      #pandagif {
+        float:right;
+        width: 410px;
+        margin-top: 80px;
+        height: 350px;
+        
+      }
+
+      #header {
+        margin-top: 200px;
+        font-size: 30px;
+      }
+
+      #para {
+        font-size: 13px;
+      }
+
+      button {
+        border:none;
+        background-color: #0d6efd;
+        border-radius: 3px;
+      }
+
+      button a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        line-height: 30px;
+        padding: 10px;
+        
+      }
+
+      .panda2 {
+        height: 350px;
+        width: 410px;
+      }
+      
+      .panda-container {
+        display: flex;
+        margin-top: 150px;
+      }
+
+      .content {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        width: 500px;
+        margin-top: 70px;
+      }
+
+      #my-button {
+        height: 24px;
+        width: 75px;
+        color: white;
+        font-size: small;
+        justify-content: center;
+      }
+
+      .content p {
+        text-align: justify;
+        font-size: 13px;
+        color: rgba(128, 128, 128, 0.718);
+      }
+
+      .content h1 {
+        font-size: 20px;
+      }
+
+      .pandacard {
+        display: flex;
+      }
+
+      .inner {
+        display: flex;
+        flex-direction: column;
+        margin-top: 130px;
+      }
+
+      .lab {
+        height: 400px;
+      }
+
+      .inner h1 {
+        font-size: 20px;
+      }
+
+      .inner p {
+        font-size: 13px;
+        text-align: justify;
+        color: rgba(128, 128, 128, 0.718);
+      }
+
+      .inner button {
+        width: 65px;
+        font-size: 12px;
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .container {
+        width: 85%;
+      }
+
+      .card {
+        display: flex;
+        background-color: black;
+        flex-direction: row;
+      }
+
+      .card img {
+        width: 350px;
+      }
+
+      .content2 {
+        width: 480px;
+        margin-top: 110px;
+        margin-left: 30px;
+      }
+
+      .content2 h1 {
+        font-size: 20px;
+      }
+
+      .content2 p {
+        font-size: 13px;
+        color: rgba(128, 128, 128, 0.718);
+        text-align: justify;
+      }
+
+      .tokenomics {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+      }
+
+      .tokenomics h1 {
+        font-size: 20px;
+      }
+       
+      .tokenomics p {
+        font-size: 11px;
+        width: 600px;
+        text-align: center;
+      }
+
+      .final-stage {
+        margin-top: 10px;
+        display: flex;
+      }
+
+      .final-stage p {
+        font-size: 10px;
+        width: 380px;
+        margin: 0;
+        line-height: 17px;
+      }
+
+      .contain {
+        margin-left: 35px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .contain li {
+        font-size: 10px;
+        font-weight: bold;
+        line-height: 28px;
+      }
+
+      .div1 {
+        position: relative;
+        background-color: #676767;
+        height: 7px;
+        width: 90px;
+        border-radius: 4px;
+      }
+
+      .ontop1 {
+        position: absolute;
+        background-color: #ff0;
+        height: 4.5px;
+        width: 10px;
+        border-radius: 3px;
+        top: 1.4px;
+        left: 3px;
+      }
+
+      .div2 {
+        position: relative;
+        background-color:#676767;
+        height: 7px;
+        width: 90px;
+        border-radius: 4px;
+      }
+
+      .ontop2 {
+        position: absolute;
+        background-color: #f08080;
+        height: 4.5px;
+        width: 30px;
+        border-radius: 3px;
+        top: 1.3px;
+        left: 3px;
+      }
+
+      .div3 {
+        position: relative;
+        background-color:#676767;
+        height: 7px;
+        width: 90px;
+        border-radius: 4px;
+      }
+
+      .ontop3 {
+        position: absolute;
+        background-color: lime;
+        height: 4.5px;
+        width: 38px;
+        border-radius: 3px;
+        top: 1.3px;
+        left: 3px;
+      }
+
+      #number {
+        color: #676767;
+      }
+      
+      </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="container-fluid">
+        <img
+          src="pandaswap_logo.png"
+          alt=""
+          style="width: 55px; height: 55px"
+        />
+        <a class="navbar-brand text-white" href="#">PandaSwap</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Swap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Game</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">RoadMap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white bg-primary" href="#" id="pandaswap"
+                >Download PandaswapPaper</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="sect44">
+      <div class="container text-white" id="contain">
+        <img src="pandaimage.gif" alt="pandaimage" id="pandagif">
+        <h1 id="header">WELCOME TO PANDA SWAP</h1>
+        <p id="para">
+          The decentralized Meme coin grows into PANDA's game Metaverse. <br>PANDA
+          devotes to build a bridge between the the P2E game and <br>players and
+          make the game not only for fun but also can make money!
+        </p>
+        <div>
+            <button><a href="#">Download WhitePaper</a></button>
+            <button><a href="#">Buy PST</a></button>
+        </div>
+
+        <div class="panda-container">
+          <img class="panda2" src="pandaimage.gif" alt="">
+          <div class="content">
+            <h1>PANDA GAMES</h1>
+          <p>As the world's leading Play to Earn game platform, PANDA Games is the owner of products and services such as GameFi LaunchPad, NFT Marketplace, NFT Mining, Farms and ImPANDA Wallet. It is committed to providing high-quality P2E games for global game users.</p>
+          <button id="my-button">Play Game</button>
+        </div>
+      </div>
+      <div class="pandacard">
+        <div class="inner">
+        <h1>PANDA LABS</h1>
+        <p>PANDA GameFi Labs is an independent game incubator in the WEB3.0 era. It provides game developers with the complete GameFi game design system and technical support to help the game developers to finish blockchain game development more easily. At the same time, it also incubates high-quality GameFi games.</p>
+        <button>Enter Lab</button>
+      </div>
+        <img class="lab" src="pandaswap_lab.png" alt="">
+      </div>
+      <div class="card">
+        <img src="panda2.png" alt="">
+        <div class="content2">
+        <h1>Play To Earn Guild Alliance</h1>
+        <p>P2EGA is a Play-to-Earn gaming guild alliance. We hope to help millions of low-income people to gain more profits through “Play-to-Earn” games and bring more users into the game!</p>
+      </div>
+      </div>
+      <div class="tokenomics">
+        <h1>PANDASWAP TOKENOMICS</h1>
+        <p>PANDA is a token on Binance Smart Chain boasting various impressive features. Designed with burning mechanism, the total circulation supply of PANDA will be exponentially cut.</p>
+      </div>
+
+      <div class="final-stage">
+        <p>Besides, by combining burning mechanism, innovative Auto-Liquidity function and NFT together,PANDA liquidity is allowed to increase rapidly. One of the most important features of PANDA is that it practices a large-scale decentralization which is rare for other tokens. Mixing these three outstanding features together, users are able to get a power house token out of the hands of anyone, except the community.</p>
+        <div class="contain">
+              <ul>
+                <li>Total Supply</li>
+                <div id="number">1,000,000,000,000,000</div>
+                <li>Gradually Destroy
+                </li>
+                <div class="div1">
+                  <div class="ontop1"></div>
+                </div>
+                <li>Fair Launch Supply
+                </li>
+                <div class="div2">
+                  <div class="ontop2"></div>
+                </div>
+                <li>Burned Dev Tokens
+                </li>
+                <div class="div3">
+                  <div class="ontop3"></div>
+                </div>
+              </ul>
+        </div>
+      </div>
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Create a Wallet
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              On Google Chrome, visit metamask.io to download the extension and set up a wallet. Android and iOS users can download the Trust Wallet app on your phone.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              2.Send $BNB to your BSC Wallet:
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Buy $BNB from Binance Exchange and transfer to your BSC wallet address.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              3.Swap $BNB for $PANDA:
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Go to the DApps tab at the bottom, find PancakeSwap V2, click “Select a Currency”, enter the contract address in the search bar, and you should be able to find PANDA.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              4.PANDA contact address:
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              0x3C82a76556282FecBCdFdefBC0760Dee9D230D5a
+Before the Swap, click the gear and set the slippage to 6-7%, set the amount you want to buy and click the “Swap” button. If you are operating on the PC, please enter the PancakeSwapV2 official website and click “Connect Wallet” at the top right of the website.
+<span>Buy on PancakeSwap</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
